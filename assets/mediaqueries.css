@@ -1,0 +1,128 @@
+@media only screen and (min-width: 780px) and (max-width: 1155px) {
+
+  .containModif{
+    text-align: center;
+    margin: -3.6em 0em 3em 13em;
+    padding:0px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+
+    html{
+        width:auto
+   
+    }
+    body {
+      width: auto;
+      padding: 30px;
+    }
+    main {
+        width: 100%;
+      }
+      header{
+        display:flex ;
+        flex-wrap: wrap;
+        padding:60px 0px 40px 0px;
+        margin:0;
+      }
+
+      header h1{
+        margin: auto;
+        margin-bottom: 1em;
+      }
+
+     
+      #modddal{
+        display:inline-flex!important;
+        gap:10px;
+        margin:0px;
+        padding:0px;
+        margin-bottom:20px
+      }
+
+      #modddal .js-modal{
+        text-align: center;
+      }
+
+      #introduction {
+        margin:0;
+        padding:0;
+        display: block;
+      }
+      #introduction img{
+        width: 100%;
+        padding:0px;
+        margin:0px
+      }
+
+      #introduction article {
+        margin-top: 1em;
+        padding-top: 50px;
+      }
+
+      .containModif-first{
+        margin-left: 0px;
+      }
+
+      nav > ul{
+        flex-wrap: wrap;
+        padding:0px;
+        margin:0px;
+        text-align: center;
+        justify-content: center;
+      }
+
+      nav li{
+        text-align: center;
+        padding:0px 10px 0px 10px!important;
+        margin-bottom: 0px;
+      }
+
+      .containModif{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        margin-top:-1em;
+        margin-bottom: 3em;
+      }
+
+      .projE{
+        width: 100%;
+      }
+
+      #portfolio {
+        width: 100%;
+      }
+      #contact{
+        width:80%
+      }
+
+      #filter .item-filters-all, .item-filters{
+        font-size:13px
+
+
+      }
+
+      .item-filters-all{
+        font-size: 13px;
+      }
+
+      .connexionBody header{
+        display: flex;
+        flex-wrap: wrap;
+        padding:0px;
+      }
+
+      .connexionBody nav li{
+        padding:0px;
+        margin-left: 10px;
+        margin-bottom: 2em;
+      }
+}
+
+.item-filters-all, .item-filters{
+  margin:0px 5px 10px 5px;
+  padding:10px 20px 10px 20px;
+}
+
